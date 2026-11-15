@@ -1,0 +1,8 @@
+// EXAMPLE ONLY. For a NEW static-only Worker this works as-is (rename "name").
+// For an EXISTING Worker, do NOT overwrite its config: merge only the "assets" block
+// and keep your existing "main" entry point and bindings.
+{
+  "name": "unlocked4u-media",
+  "compatibility_date": "2026-01-01",
+  "assets": { "directory": "./" }
+}
